@@ -1,0 +1,891 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RTO
+</name>
+</assembly>
+<members>
+<member name="T:RTO.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:RTO.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:RTO.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:RTO.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSetTableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.DBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.DBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.DBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.DBDataSetTableAdapters.TableAdapterManager.UpdateAll(RTO.DBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.DBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.DBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.DBDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.DBDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.DBDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.DBDataSet1TableAdapters.TableAdapterManager.UpdateAll(RTO.DBDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.DBDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.ChallanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.LearningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.PermanentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.ChallanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.LearningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.PermanentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.ChallanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.LearningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.PermanentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.ChallanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.LearningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.PermanentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.DBDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.DBDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.DBDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.DBDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.DBDataSet2TableAdapters.TableAdapterManager.UpdateAll(RTO.DBDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.DBDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.ChallanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.LearningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.PermanentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.ChallanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.LearningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.PermanentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.ChallanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.LearningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.PermanentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.ChallanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.LearningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.PermanentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.DBDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.DBDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.DBDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.DBDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.DBDataSet3TableAdapters.TableAdapterManager.UpdateAll(RTO.DBDataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.DBDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.ChallanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.LearningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.PermanentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.ChallanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.LearningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.PermanentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.ChallanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.LearningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.PermanentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.ChallanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.LearningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.PermanentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.DBDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.DBDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.DBDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.DBDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.DBDataSet4TableAdapters.TableAdapterManager.UpdateAll(RTO.DBDataSet4)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.DBDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.ChallanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.LearningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.PermanentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.RegistrationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.ChallanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.LearningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.PermanentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.RegistrationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.ChallanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.LearningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.PermanentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.RegistrationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.ChallanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.LearningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.PermanentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.RegistrationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.DBDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.DBDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.DBDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.DBDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.DBDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.DBDataSet5TableAdapters.TableAdapterManager.UpdateAll(RTO.DBDataSet5)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.DBDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:RTO.Vehrep">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:RTO.Vehrep.VehicleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:RTO.Vehrep.VehicleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:RTO.Vehrep.VehicleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:RTO.VehrepTableAdapters.VehicleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:RTO.VehrepTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:RTO.VehrepTableAdapters.TableAdapterManager.UpdateUpdatedRows(RTO.Vehrep,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.VehrepTableAdapters.TableAdapterManager.UpdateInsertedRows(RTO.Vehrep,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:RTO.VehrepTableAdapters.TableAdapterManager.UpdateDeletedRows(RTO.Vehrep,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:RTO.VehrepTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:RTO.VehrepTableAdapters.TableAdapterManager.UpdateAll(RTO.Vehrep)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:RTO.VehrepTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:RTO.VehrepTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
